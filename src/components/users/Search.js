@@ -7,8 +7,6 @@ const Search = ({searchUsers, showClear, clearUsers, setAlert}) => {
 
   const onChange = e => setText(e.target.value)
 
-
-
   const onSubmit = (e) => {
     e.preventDefault()
     if (text === '') {
